@@ -1,0 +1,36 @@
+/* Basic typography */
+html, body {
+  font-family: "Lato", sans-serif;
+}
+
+/* Smooth caption background on slides */
+.slide-caption {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 6px;
+}
+
+/* Navbar: keep buttons nicely spaced on small screens */
+.w3-top .w3-bar .w3-button {
+  letter-spacing: 1px;
+}
+
+/* Improve section spacing a touch on smaller screens */
+@media (max-width: 600px) {
+  .w3-padding-64 {
+    padding-top: 48px !important;
+    padding-bottom: 48px !important;
+  }
+}
+
+/* Modal close button hover (subtle) */
+#w3-modal .w3-button:hover,
+.w3-modal .w3-button:hover {
+  opacity: 0.9;
+}
+
+/* Optional: tweak footer icons spacing */
+footer .fab {
+  padding: 8px 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
